@@ -1,0 +1,159 @@
+// Place all the styles related to the Clients controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.client-form form{
+  
+  background-image: -webkit-gradient(linear, 35% 0%, 33% 0%, from(#FFFFFF), to(#E2DAED), color-stop(.9,#BEBDBF));
+  
+  /*background:#f7f7f7;*/
+  background:-moz-linear-gradient(90deg, #ccc, #fff); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc)); /* Webkit */
+  border:1px solid #aaa;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-box-shadow:0 0 15px #aaa;
+  -webkit-box-shadow:0 0 15px #aaa;
+  margin:60px auto 0;
+  padding:20px;
+  width:440px;
+}
+.client-form h1{
+  border-bottom:1px solid #ccc;
+  font-size:11px;
+  font-weight:bold;
+  letter-spacing:2px;
+  margin-bottom:20px;
+  text-transform:uppercase;
+}
+.client-form form p{
+  margin-bottom:20px;
+}
+.client-form form p:last-child{ /* Sélecteur avancé pour sélectionner le dernier paragraphe du formulaire */
+  margin-bottom:0;
+}
+.client-form label{
+  cursor:pointer;
+  display:block;
+  float:left;
+  font-size:13px;
+  font-weight:bold;
+  line-height:28px;
+  margin-bottom:5px;
+  width:120px;
+}
+.client-form form p:hover label{
+  color:#0459b7;
+}
+form p:hover label:after{
+  content:" »";
+}
+.client-form input[type=text],input[type=email],input[type=textarea],
+input[type=password]{
+  background: rgba(255, 255, 255, 0.9);
+  background:-moz-linear-gradient(90deg, #fff, #eee); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #fff)); /* Webkit */
+  border:1px solid #aaa;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-box-shadow:0 0 3px #aaa;
+  -webkit-box-shadow:0 0 3px #aaa;
+  padding:5px;
+}
+
+
+.client-form input[type=text]:focus,input[type=email]:focus,input[type=textarea]:focus,
+ input[type=password]:focus{
+  border-color:#093c75;
+  -moz-box-shadow:0 0 3px #0459b7;
+  -webkit-box-shadow:0 0 3px #0459b7;
+  outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
+.client-form select{
+  cursor:pointer;
+  padding:3px;
+  -moz-box-shadow:0 0 3px #aaa;
+  -webkit-box-shadow:0 0 3px #aaa;
+}
+.client-form select:active,
+.client-form select:focus{
+  border:1px solid #093c75;
+  -moz-box-shadow:0 0 3px #0459b7;
+  -webkit-box-shadow:0 0 3px #0459b7;
+  outline:none;
+}
+.client-form input[type=submit],
+.client-form a.submit{
+  background:#ddd;
+  background:-moz-linear-gradient(90deg, #0459b7, #08adff); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#08adff), to(#0459b7)); /* Webkit */
+  border:1px solid #093c75;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-box-shadow:0 1px 0 #fff;
+  -webkit-box-shadow:0 1px 0 #fff;
+  color:#fff;
+  cursor:pointer;
+  font-family:Arial,sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  margin-left:120px;
+  padding:5px 10px;
+  text-decoration:none;
+  text-shadow:0 1px 1px #333;
+  text-transform:uppercase;
+}
+.client-form input[type=submit]:hover,
+.client-form a.submit:hover{
+  background:#eee;
+  background:-moz-linear-gradient(90deg, #067cd3, #0bcdff);
+  background:-webkit-gradient(linear, left top, left bottom, from(#0bcdff), to(#067cd3));
+  border-color:#093c75;
+  text-decoration:none;
+}
+.client-form input[type=submit]:active,
+.client-form input[type=submit]:focus,
+.client-form a.submit:active,
+.client-form a.submit:focus{
+  background:#ccc;
+  background:-moz-linear-gradient(90deg, #0bcdff, #067cd3);
+  background:-webkit-gradient(linear, left top, left bottom, from(#067cd3), to(#0bcdff));
+  border-color:#093c75;
+  outline:none;
+}
+#options{
+  margin-bottom:20px;
+}
+#options p{
+  display:none;
+}
+#options .show{
+  display:block;
+}
+#options:target .show{
+  display:none;
+}
+#options .hide{
+  display:none;
+}
+#options:target .hide{
+  display:block;
+}
+#options:target p{
+  display:block;
+}
+#finish{
+  background:rgba(65, 166, 42, 0.2);
+  border:2px solid #41a62a;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  display:none;
+  padding:5px 10px;
+}
+#finish:target{
+  display:block;
+}
+#credits{
+  font-size:11px;
+  margin-top:20px;
+  text-align:center;
+}

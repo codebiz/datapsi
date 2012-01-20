@@ -1,0 +1,17 @@
+<%= form_for(@ecommerceplan) do |f| %>
+  <% if @ecommerceplan.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ecommerceplan.errors.count, "error") %> prohibited this ecommerceplan from being saved:</h2>
+
+      <ul>
+      <% @ecommerceplan.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

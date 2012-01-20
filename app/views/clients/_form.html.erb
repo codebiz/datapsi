@@ -1,0 +1,98 @@
+<%= form_for @client , :url => { :action => "create" }, :html => {:class => "client-form"} do |f| %>
+<% if @client.errors.any? %>
+<div id="error_explanation">
+	<h2><%= pluralize(@client.errors.count, "error") %> prohibited this client from being saved:</h2>
+	<ul>
+		<% @client.errors.full_messages.each do |msg| %>
+		<li>
+			<%= msg %>
+		</li>
+		<% end %>
+	</ul>
+</div>
+<% end %>
+<fieldset>
+	<legend><h1>Register new client</h1></legend>
+	<p>
+		<%= f.label :Username %>
+	</p>
+	<p>
+		<%= f.text_field :Username %>
+	</p>
+	<p>
+		<%= f.label :Email %>
+	</p>
+	<p>
+		<%= f.email_field :Email %>
+	</p>
+	<p>
+		<%= f.label :Password %>
+	</p>
+	<p>
+		<%= f.password_field :Password %>
+	</p>
+	<p>
+		<%= f.label "First Name" %>
+	</p>
+	<p>
+		<%= f.text_field :FirstName %>
+	</p>
+	<p>
+		<%= f.label "Last Name" %>
+	</p>
+	<p>
+		<%= f.text_field :LastName %>
+	</p>
+	<p>
+		<%= f.label :Company %>
+	</p>
+	<p>
+		<%= f.text_field :Company %>
+	</p>
+	<p>
+		<%= f.label :City %>
+	</p>
+	<p>
+		<%= f.text_field :City %>
+	</p>
+	<p>
+		<%= f.label :Address1 %>
+	</p>
+	<p>
+		<%= f.text_field :Address1 %>
+	</p>
+	<p>
+		<%= f.label :Address2 %>
+	</p>
+	<p>
+		<%= f.text_field :Address2 %>
+	</p>
+	<p>
+		<%= f.label "Zip/Postal Code" %>
+	</p>
+	<p>
+		<%= f.text_field :ZipPostalCode %>
+	</p>
+	<p>
+		<%= f.label "Phone Number" %>
+	</p>
+	<p>
+		<%= f.text_field :PhoneNumber %>
+	</p>
+	<p>
+		<%= f.label "Fax Number" %>
+	</p>
+	<p>
+		<%= f.text_field :FaxNumber %>
+	</p>
+	<p>
+		<%= f.label "Comments" %>
+	</p>
+	<p>
+		<%= f.text_area :AdminComment , :size => "40x5" %>
+	</p>
+	<div class="actions">
+		<%= f.submit "Register" %>
+	</div>
+</fieldset>
+<% end %> 

@@ -1,0 +1,2 @@
+module EmailplansHelper
+end

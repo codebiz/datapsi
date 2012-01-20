@@ -1,0 +1,107 @@
+<div class="row-top">
+	<div class="line-top">
+		<div class="main">
+			<div class="wrapper relative zoom">
+				<h1><a href="index.html"></a></h1>
+				<div class="block-right">
+					<ul class="nav-top">
+						<li class="first">
+							<a href="#">Support</a>
+						</li>
+						<li>
+							<a href="#">Hot Deals</a>
+						</li>
+						<li>
+							<a href="#">Affiliates </a>
+						</li>
+						<li>
+							<a href="#">Resellers</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+					<div class="wrapper">
+						<form id="search-form" method="get">
+							<fieldset>
+								<div class="wrapper">
+									<span>Search</span>
+									<div class="rowElem">
+										<input type="text" name="text"/>
+										<a onClick="document.getElementById('search-form').submit()"  class="search-submit"></a>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+						<ul class="nav-top2">
+							<li>
+								<%= link_to "Register", new_client_path %>
+								
+							</li>
+							<li>
+								<a href="#">Sign In</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<nav>
+				<ul class="sf-menu">
+					<li >
+						<a class="active" href="index.html"><img src="<%= asset_path 'img-home.png' %>" alt="" /></a>
+					</li>
+					<li>
+						<a href="index-1.html">DOMAIN NAMES</a>
+						<ul>
+							<li>
+								<%=link_to "Domain Name Search", product_searches_url %>
+								
+							</li>
+							<li>
+								<a href="#">Expired Domains</a>
+								<ul>
+									<li>
+										<a href="#">Search Domain Name</a>
+									</li>
+									<li>
+										<a href="#">Renew Domain Name</a>
+									</li>
+									<li>
+										<a href="#">Transfer Domain Name</a>
+									</li>
+									<li>
+										<a href="#">Domain Name Features</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Web Forwarding</a>
+							</li>
+							<li class="last">
+								<a href="#">Transfer Your Domain Name</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<%=link_to "WEB HOSTING", packages_url %>
+						
+					</li>
+					<li>
+						<%=link_to "EMAIL", emailplans_url %>
+					</li>
+					<li>
+						<%=link_to "SSL CERTIFICATES", sslplans_url %>
+						
+					</li>
+					<li>
+						<%=link_to "ONLINE MARKETING", marketingplans_url %>
+						
+					</li>
+					<li class="last">
+						<%=link_to "eCOMMERCE", ecommerceplans_url %>
+						
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</nav>
+		</div>
+	</div>
+</div>

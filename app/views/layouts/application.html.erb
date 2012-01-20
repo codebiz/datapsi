@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>datapsi</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Hamid" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<%= stylesheet_link_tag    "application" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+		<script type="text/javascript">
+			$(function() {
+				$('#slider').cycle({
+					fx : 'fade',
+					pager : '#nav',
+					timeout : 0
+				});
+				$('#slider-2').cycle({
+					fx : 'scrollHorz',
+					pager : '#nav-2',
+					timeout : 0
+				});
+				$('#form').jqTransform({
+					imgPath : 'images/'
+				});
+
+			});
+
+		</script>
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/html5.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+		<![endif]-->
+		<!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+		<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+		</a>
+		</div>
+		<![endif]-->
+	</head>
+	<body id="page2">
+		<!--==============================header=================================-->
+		<header>
+			<%= render 'shared/header' %>
+		</header>
+		<!--==============================content=================================-->
+		<section id="content">
+			<% flash.each do |key, value| %>
+			<div class="flash <%= key %>">
+				<%= value %>
+			</div>
+			<% end %>
+			<%= yield %>
+		</section>
+		<!--==============================footer=================================-->
+		<footer>
+			<%= render 'shared/footer' %>
+		</footer>
+		<script type="text/javascript">
+			Cufon.now();
+
+		</script>
+	</body>
+</html>
