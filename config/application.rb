@@ -24,7 +24,7 @@ module Datapsi
       g.view_specs false
       g.helper_specs false
     end
-#config.logger = GELF::Logger.new("localhost", "12201")
+  config.logger = GELF::Logger.new("localhost", "12201")
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -35,7 +35,7 @@ module Datapsi
 
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
-    # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
+     config.plugins = [ :exception_notification, :ssl_requirement, :all ]
 
     # Activate observers that should always be running.
     # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
