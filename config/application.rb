@@ -24,7 +24,7 @@ module Datapsi
       g.view_specs false
       g.helper_specs false
     end
-  config.logger = GELF::Logger.new("localhost", "12201")
+#  config.logger = GELF::Logger.new("localhost", "12201")
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
