@@ -1,34 +1,34 @@
 class Client
   include Mongoid::Document
       
-   field:Username, type=>String 
-   field:Email,   type=>String
-   field:Password,   type=>String
-   field:PasswordFormatId,  type=>Integer
-   field:PasswordSalt ,  type=>String
-   field:FirstName ,  type=>String
-   field:LastName ,  type=>String
+   field:Username 
+   field:Email
+   field:Password
+   field:PasswordFormatId
+   field:PasswordSalt
+   field:FirstName
+   field:LastName
    
-   field:Company ,  type=>String
+   field:Company
   
-   field:City ,  type=>String
-   field:Address1 ,  type=>String
-   field:Address2 ,  type=>String
-   field:ZipPostalCode ,  type=>String
-   field:PhoneNumber ,  type=>String
-   field:FaxNumber ,  type=>String
-   field:AdminComment ,  type=>String
+   field:City 
+   field:Address1 
+   field:Address2 
+   field:ZipPostalCode 
+   field:PhoneNumber 
+   field:FaxNumber 
+   field:AdminComment 
   
-   field:VatNumber ,  type=>String
+   field:VatNumber 
   
-   field:CheckoutAttributes,   type=>String
-   field:DiscountCouponCode,   type=>String
-   field:GiftCardCouponCodes,   type=>String
-   field:UseRewardPointsDuringCheckout,   type=>Boolean
+   field:CheckoutAttributes
+   field:DiscountCouponCode
+   field:GiftCardCouponCodes
+   field:UseRewardPointsDuringCheckout
   
-   field:Active,   type=>Boolean
-   field:Deleted ,  type=>Boolean
-   field:IsSystemAccount, type=>Boolean
+   field:Active
+   field:Deleted 
+   field:IsSystemAccount
    
    #index :Username, unique=> true
    #index :Email, unique=> true
