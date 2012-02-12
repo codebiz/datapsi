@@ -16,6 +16,9 @@ group :assets do
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
 end
+group :production do
+  gem 'thin'
+end
 
 gem 'jquery-rails'
 gem 'heroku'
