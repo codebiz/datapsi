@@ -4,7 +4,7 @@ gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
+gem "mongoid", :git => "git@github.com:etech/mongoid.git"
 
 gem "bson_ext", ">= 1.3.1"
 gem "mongoid", ">= 2.3.3"
