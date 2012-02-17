@@ -78848,3 +78848,240 @@ ActionController::RoutingError (No route matches [GET] "/clients/4f3e4d296cc1f02
   
 
 Rendered C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/clients/4f3e4d296cc1f02240000002/edit" for 127.0.0.1 at Fri Feb 17 17:53:49 +0500 2012
+  Processing by ClientsController#edit as HTML
+  Parameters: {"id"=>"4f3e4d296cc1f02240000002"}
+MONGODB app_development['system.namespaces'].find({})
+MONGODB app_development['clients'].find({:_id=>BSON::ObjectId('4f3e4d296cc1f02240000002')}).limit(-1).sort(_idasc)
+Rendered clients/_form.html.erb (10.0ms)
+Rendered clients/edit.html.erb within layouts/application (15.0ms)
+Rendered shared/_menu.html.erb (2.0ms)
+Rendered shared/_header.html.erb (8.0ms)
+Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 88.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:49 +0500 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:50 +0500 2012
+Served asset /grid.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqtransform.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:50 +0500 2012
+Served asset /jqtransform.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:50 +0500 2012
+Served asset /ie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:50 +0500 2012
+Served asset /clients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:50 +0500 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:50 +0500 2012
+Served asset /reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:51 +0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:51 +0500 2012
+Served asset /jquery.js - 304 Not Modified (67ms)
+
+
+Started GET "/assets/FF-cash.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:51 +0500 2012
+Served asset /FF-cash.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Fri Feb 17 17:53:51 +0500 2012
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Kozuka_Gothic_Pr6N_AJ16_OpenType_300.font.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:51 +0500 2012
+Served asset /Kozuka_Gothic_Pr6N_AJ16_OpenType_300.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Kozuka_Gothic_Pr6N_AJ16_OpenType_500.font.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:51 +0500 2012
+Served asset /Kozuka_Gothic_Pr6N_AJ16_OpenType_500.font.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Kozuka_Gothic_Pr6N_AJ16_OpenType_900.font.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:52 +0500 2012
+Served asset /Kozuka_Gothic_Pr6N_AJ16_OpenType_900.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:52 +0500 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-replace.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:52 +0500 2012
+Served asset /cufon-replace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:52 +0500 2012
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ecommerceplans.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:52 +0500 2012
+Served asset /ecommerceplans.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/easyTooltip.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:52 +0500 2012
+Served asset /easyTooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emailplans.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:53 +0500 2012
+Served asset /emailplans.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forms.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:53 +0500 2012
+Served asset /forms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:53 +0500 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backgroundPosition.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:53 +0500 2012
+Served asset /jquery.backgroundPosition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/html5.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:53 +0500 2012
+Served asset /html5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.min.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:53 +0500 2012
+Served asset /jquery-1.7.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.color.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:54 +0500 2012
+Served asset /jquery.color.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.cycle.all.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:54 +0500 2012
+Served asset /jquery.cycle.all.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:54 +0500 2012
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.jqtransform.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:54 +0500 2012
+Served asset /jquery.jqtransform.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/packages.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:55 +0500 2012
+Served asset /packages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/marketingplans.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:55 +0500 2012
+Served asset /marketingplans.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/product_searches.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:55 +0500 2012
+Served asset /product_searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:55 +0500 2012
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:55 +0500 2012
+Served asset /script.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sslplans.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:55 +0500 2012
+Served asset /sslplans.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:56 +0500 2012
+Served asset /superfish.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:56 +0500 2012
+Served asset /tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:56 +0500 2012
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Feb 17 17:53:56 +0500 2012
+Served asset /application.js - 200 OK (22ms)
+
+
+Started GET "/clients/4f3e4d296cc1f02240000002/js/jquery.color.js" for 127.0.0.1 at Fri Feb 17 17:53:56 +0500 2012
+
+ActionController::RoutingError (No route matches [GET] "/clients/4f3e4d296cc1f02240000002/js/jquery.color.js"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/line-top.gif" for 127.0.0.1 at Fri Feb 17 17:53:57 +0500 2012
+Served asset /line-top.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tail-top.gif" for 127.0.0.1 at Fri Feb 17 17:53:57 +0500 2012
+Served asset /tail-top.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Fri Feb 17 17:53:58 +0500 2012
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tail-nav-top.gif" for 127.0.0.1 at Fri Feb 17 17:53:58 +0500 2012
+Served asset /tail-nav-top.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/part-search.png" for 127.0.0.1 at Fri Feb 17 17:53:58 +0500 2012
+Served asset /part-search.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/border-nav-top.gif" for 127.0.0.1 at Fri Feb 17 17:53:58 +0500 2012
+Served asset /border-nav-top.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lenz.png" for 127.0.0.1 at Fri Feb 17 17:53:58 +0500 2012
+Served asset /lenz.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/border-nav-top2.gif" for 127.0.0.1 at Fri Feb 17 17:53:58 +0500 2012
+Served asset /border-nav-top2.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tail-nav.gif" for 127.0.0.1 at Fri Feb 17 17:53:59 +0500 2012
+Served asset /tail-nav.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/part-items.png" for 127.0.0.1 at Fri Feb 17 17:53:59 +0500 2012
+Served asset /part-items.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img-home.png" for 127.0.0.1 at Fri Feb 17 17:53:59 +0500 2012
+Served asset /img-home.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/point.png" for 127.0.0.1 at Fri Feb 17 17:53:59 +0500 2012
+Served asset /point.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tail-content.gif" for 127.0.0.1 at Fri Feb 17 17:53:59 +0500 2012
+Served asset /tail-content.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tail-footer.gif" for 127.0.0.1 at Fri Feb 17 17:53:59 +0500 2012
+Served asset /tail-footer.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/border-nav-footer.gif" for 127.0.0.1 at Fri Feb 17 17:54:00 +0500 2012
+Served asset /border-nav-footer.gif - 304 Not Modified (0ms)
