@@ -1,0 +1,390 @@
+MONGODB [DEBUG] Please note that logging negatively impacts client-side performance. You should set your logging level no lower than :info in production.
+MONGODB [DEBUG] Please note that logging negatively impacts client-side performance. You should set your logging level no lower than :info in production.
+MONGODB [DEBUG] Please note that logging negatively impacts client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (1045ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 26 02:00:36 +0500 2012
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (36.0ms)
+Rendered shared/_menu.html.erb (3.0ms)
+Rendered shared/_header.html.erb (46.0ms)
+Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 2016ms (Views: 2016.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 26 02:01:01 +0500 2012
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.0ms)
+Rendered shared/_menu.html.erb (1.0ms)
+Rendered shared/_header.html.erb (7.0ms)
+Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 153ms (Views: 129.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /application.css - 200 OK (73ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /scaffolds.css - 200 OK (28ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /style.css - 200 OK (89ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /jquery.js - 200 OK (70ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /jquery_ujs.js - 200 OK (40ms)
+
+
+Started GET "/assets/FF-cash.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /FF-cash.js - 200 OK (30ms)
+
+
+Started GET "/assets/Kozuka_Gothic_Pr6N_AJ16_OpenType_300.font.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:02 +0500 2012
+Served asset /Kozuka_Gothic_Pr6N_AJ16_OpenType_300.font.js - 200 OK (33ms)
+
+
+Started GET "/assets/Kozuka_Gothic_Pr6N_AJ16_OpenType_500.font.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /Kozuka_Gothic_Pr6N_AJ16_OpenType_500.font.js - 200 OK (50ms)
+
+
+Started GET "/assets/Kozuka_Gothic_Pr6N_AJ16_OpenType_900.font.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /Kozuka_Gothic_Pr6N_AJ16_OpenType_900.font.js - 200 OK (56ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /clients.js - 200 OK (36ms)
+
+
+Started GET "/assets/cufon-replace.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /cufon-replace.js - 200 OK (42ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /cufon-yui.js - 200 OK (56ms)
+
+
+Started GET "/assets/jqtransform.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /jqtransform.css - 200 OK (42ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /clients.css - 200 OK (44ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /grid.css - 200 OK (43ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /reset.css - 200 OK (33ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /ie.css - 200 OK (64ms)
+
+
+Started GET "/assets/easyTooltip.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /easyTooltip.js - 200 OK (59ms)
+
+
+Started GET "/assets/ecommerceplans.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /ecommerceplans.js - 200 OK (62ms)
+
+
+Started GET "/assets/emailplans.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /emailplans.js - 200 OK (90ms)
+
+
+Started GET "/assets/forms.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /forms.js - 200 OK (39ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:03 +0500 2012
+Served asset /home.js - 200 OK (27ms)
+
+
+Started GET "/assets/html5.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /html5.js - 200 OK (38ms)
+
+
+Started GET "/assets/jquery-1.7.min.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /jquery-1.7.min.js - 200 OK (133ms)
+
+
+Started GET "/assets/jquery.backgroundPosition.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /jquery.backgroundPosition.js - 200 OK (93ms)
+
+
+Started GET "/assets/jquery.color.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /jquery.color.js - 200 OK (35ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /jquery.easing.1.3.js - 200 OK (85ms)
+
+
+Started GET "/assets/jquery.jqtransform.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /jquery.jqtransform.js - 200 OK (67ms)
+
+
+Started GET "/assets/jquery.cycle.all.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /jquery.cycle.all.js - 200 OK (103ms)
+
+
+Started GET "/assets/marketingplans.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /marketingplans.js - 200 OK (55ms)
+
+
+Started GET "/assets/packages.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /packages.js - 200 OK (127ms)
+
+
+Started GET "/assets/product_searches.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:04 +0500 2012
+Served asset /product_searches.js - 200 OK (32ms)
+
+
+Started GET "/assets/sslplans.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /sslplans.js - 200 OK (42ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /products.js - 200 OK (22ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /script.js - 200 OK (63ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /superfish.js - 200 OK (241ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /tabs.js - 200 OK (31ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /users.js - 200 OK (17ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /application.js - 200 OK (108ms)
+
+
+Started GET "/js/jquery.color.js" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.color.js"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/tail-nav-top.gif" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /tail-nav-top.gif - 200 OK (36ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /logo.png - 200 OK (63ms)
+
+
+Started GET "/assets/part-search.png" for 127.0.0.1 at Sun Feb 26 02:01:05 +0500 2012
+Served asset /part-search.png - 200 OK (111ms)
+
+
+Started GET "/assets/line-top.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /line-top.gif - 200 OK (30ms)
+
+
+Started GET "/assets/border-nav-top.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /border-nav-top.gif - 200 OK (19ms)
+
+
+Started GET "/assets/tail-top.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /tail-top.gif - 200 OK (18ms)
+
+
+Started GET "/assets/tail-nav.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /tail-nav.gif - 200 OK (26ms)
+
+
+Started GET "/assets/border-nav-top2.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /border-nav-top2.gif - 200 OK (20ms)
+
+
+Started GET "/assets/point.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /point.png - 200 OK (29ms)
+
+
+Started GET "/assets/lenz.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /lenz.png - 200 OK (30ms)
+
+
+Started GET "/assets/part-items.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /part-items.png - 200 OK (29ms)
+
+
+Started GET "/assets/img-home.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /img-home.png - 200 OK (36ms)
+
+
+Started GET "/assets/tail-content.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /tail-content.gif - 200 OK (22ms)
+
+
+Started GET "/assets/part-top.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /part-top.png - 200 OK (50ms)
+
+
+Started GET "/assets/tail-box-1.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /tail-box-1.gif - 200 OK (18ms)
+
+
+Started GET "/assets/arrow-1.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /arrow-1.png - 200 OK (22ms)
+
+
+Started GET "/assets/page1-img1.gif" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /page1-img1.gif - 200 OK (21ms)
+
+
+Started GET "/assets/btn-left.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /btn-left.png - 200 OK (16ms)
+
+
+Started GET "/assets/btn-right.png" for 127.0.0.1 at Sun Feb 26 02:01:06 +0500 2012
+Served asset /btn-right.png - 200 OK (35ms)
+
+
+Started GET "/assets/tail-btn-1.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /tail-btn-1.gif - 200 OK (20ms)
+
+
+Started GET "/assets/page1-img2.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img2.gif - 200 OK (19ms)
+
+
+Started GET "/assets/page1-img3.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img3.gif - 200 OK (20ms)
+
+
+Started GET "/assets/page1-img4.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img4.gif - 200 OK (35ms)
+
+
+Started GET "/assets/tail-bordrer-1.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /tail-bordrer-1.gif - 200 OK (33ms)
+
+
+Started GET "/assets/page1-img5.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img5.gif - 200 OK (22ms)
+
+
+Started GET "/assets/page1-img6.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img6.png - 200 OK (21ms)
+
+
+Started GET "/assets/page1-img7.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img7.png - 200 OK (45ms)
+
+
+Started GET "/assets/border-list.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /border-list.gif - 200 OK (88ms)
+
+
+Started GET "/assets/page1-img8.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img8.gif - 200 OK (21ms)
+
+
+Started GET "/assets/page1-img9.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img9.png - 200 OK (17ms)
+
+
+Started GET "/assets/page1-img10.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img10.png - 200 OK (18ms)
+
+
+Started GET "/assets/page1-img11.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img11.png - 200 OK (38ms)
+
+
+Started GET "/assets/page1-img12.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img12.png - 200 OK (28ms)
+
+
+Started GET "/assets/page1-img13.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img13.png - 200 OK (29ms)
+
+
+Started GET "/assets/page1-img14.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img14.png - 200 OK (20ms)
+
+
+Started GET "/assets/page1-img15.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img15.png - 200 OK (38ms)
+
+
+Started GET "/assets/page1-img16.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img16.png - 200 OK (20ms)
+
+
+Started GET "/assets/bg-slider1.png" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /bg-slider1.png - 200 OK (17ms)
+
+
+Started GET "/images/page1-img17.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+
+ActionController::RoutingError (No route matches [GET] "/images/page1-img17.gif"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/page1-img18.gif" for 127.0.0.1 at Sun Feb 26 02:01:07 +0500 2012
+Served asset /page1-img18.gif - 200 OK (15ms)
+
+
+Started GET "/assets/page1-img19.gif" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /page1-img19.gif - 200 OK (16ms)
+
+
+Started GET "/assets/tail-footer.gif" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /tail-footer.gif - 200 OK (25ms)
+
+
+Started GET "/assets/border-nav-footer.gif" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /border-nav-footer.gif - 200 OK (16ms)
+
+
+Started GET "/assets/hover-item.gif" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /hover-item.gif - 200 OK (61ms)
+
+
+Started GET "/assets/pag-1.gif" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /pag-1.gif - 200 OK (35ms)
+
+
+Started GET "/assets/checkbox1.gif" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /checkbox1.gif - 200 OK (18ms)
+
+
+Started GET "/assets/box-center-hover.png" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /box-center-hover.png - 200 OK (19ms)
+
+
+Started GET "/assets/arrow-2.png" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /arrow-2.png - 200 OK (20ms)
+
+
+Started GET "/assets/box-top-hover.png" for 127.0.0.1 at Sun Feb 26 02:01:08 +0500 2012
+Served asset /box-top-hover.png - 200 OK (19ms)
+
+
+Started GET "/assets/part-btn3.gif" for 127.0.0.1 at Sun Feb 26 02:01:27 +0500 2012
+Served asset /part-btn3.gif - 200 OK (26ms)
